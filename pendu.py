@@ -2,7 +2,7 @@
 import os
 from fonctions import *
 
-os.chdir('PROGRAM_FOLDER_ADRESS')
+os.chdir(os.getcwd())
 
 # LOAD PLAYER
 joueur = input("Hi, what's your name: ")
